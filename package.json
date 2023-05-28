@@ -9,7 +9,7 @@
   "scripts": {
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
-    "build": "react-scripts build"
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
