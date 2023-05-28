@@ -15,7 +15,7 @@ dotenv.config();
 const app = express();
 dbConnect();
 
-app.use(express.static(path.join(__dirname + "/public")))
+app.use(express.static(path.join(__dirname + "/build")))
 //-------------
 //Middleware
 //--------------
